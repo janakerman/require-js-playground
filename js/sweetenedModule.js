@@ -2,7 +2,7 @@
 // ['...', '...', '...', '...', '...', '...', '...', '...'], function(...,...,...
 // So this is a little syntactic sugar.
 define(function(require) {
-    var print = require('./print');
+    var print = require('print');
 
     return function() { print('I have sugar!!'); };
 });
